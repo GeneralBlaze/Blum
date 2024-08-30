@@ -6,7 +6,7 @@ import random
 
 async def create_sessions():
     while True:
-        session_name = input('Введите название сессии (для выхода нажмите Enter)\n')
+        session_name = input('Enter the session name (press Enter to exit)\n')
         if not session_name:
             return
         
